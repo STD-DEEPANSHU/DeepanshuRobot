@@ -2,7 +2,10 @@ from typing import Optional
 
 import DeepanshuRobot.modules.sql.rules_sql as sql
 from DeepanshuRobot import dispatcher
-from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from DeepanshuRobot.modules.helper_funcs.chat_status import (
+    user_admin,
+    connection_status,
+)
 from DeepanshuRobot.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
