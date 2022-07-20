@@ -7,7 +7,10 @@ import DeepanshuRobot.modules.sql.notes_sql as sql
 from DeepanshuRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
 from DeepanshuRobot.modules.disable import DisableAbleCommandHandler
 from DeepanshuRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from DeepanshuRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from DeepanshuRobot.modules.helper_funcs.chat_status import (
+    user_admin,
+    connection_status,
+)
 from DeepanshuRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from DeepanshuRobot.modules.helper_funcs.msg_types import get_note_type
 from DeepanshuRobot.modules.helper_funcs.string_handling import (
